@@ -1,0 +1,23 @@
+{
+  "name": "word-guess",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Michael-Kim0717/Word-Guess-Node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Michael-Kim0717/Word-Guess-Node/issues"
+  },
+  "homepage": "https://github.com/Michael-Kim0717/Word-Guess-Node#readme",
+  "dependencies": {
+    "inquirer": "^6.0.0",
+    "prompt": "^1.0.0"
+  }
+}
