@@ -2,7 +2,7 @@ var Letter = function(character){
     this.letter = character;
     this.guessed = false;
     this.hasBeenGuessed = function(){
-        if(!this.guessed){
+        if(!this.guessed && this.letter != " "){
             return "_ ";
         }
         else {
