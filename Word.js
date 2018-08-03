@@ -7,7 +7,7 @@ var Word = function(){
         for (var i = 0; i < this.letters.length; i++){
             word += this.letters[i].hasBeenGuessed();
         }
-        console.log(word);
+        return word;
     };
     this.checkEachLetter = function(letter){
         for (var i = 0; i < this.letters.length; i++){
